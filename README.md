@@ -1,2 +1,3 @@
 VSC FCC
-This file contain my personal projects linked to FCC - Free Code Camp
+This repo contains my personal projects linked to FCC - Free Code Camp
+FFCSurvey(finished)-HTML project no CSS
