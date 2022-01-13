@@ -5,7 +5,7 @@ function phoneticLookup(val) {
   //
 
   var lookup = {
-    //assigns var lookup as object with following parameters
+    //assigns var lookup as object with following key values
     alpha: "Adams",
     bravo: "Boston",
     charlie: "Chicago",
@@ -13,10 +13,10 @@ function phoneticLookup(val) {
     echo: "Easy", //comma out each until final parameter
     foxtrot: "frank",
   };
-  result = lookup[val]; //assigns result value as the val passed through lookup within the function phoneticLookup
+  result = lookup[val]; //assigns result value as a parameter is passed through (val) to lookup within the function phoneticLookup
   //
   return result; //returns result at end of function which is the value of lookup[val]
 }
 
 // Change this value to test
-console.log(phoneticLookup("foxtrot")); //returns chicago when string foxtrot is passed through phoneticLookup
+console.log(phoneticLookup("foxtrot")); //returns chicago when argument foxtrot is passed through phoneticLookup
