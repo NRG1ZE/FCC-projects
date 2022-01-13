@@ -10,10 +10,10 @@ function phoneticLookup(val) {
     bravo: "Boston",
     charlie: "Chicago",
     delta: "Denver",
-    echo: "Easy", //comma out each until final parameter
+    echo: "Easy", //comma out each until final key value
     foxtrot: "frank",
   };
-  result = lookup[val]; //assigns result value as a parameter is passed through (val) to lookup within the function phoneticLookup
+  result = lookup[val]; //assigns return of lookup(val), as a parameter is passed through (val) to lookup within the function phoneticLookup which passes to return result
   //
   return result; //returns result at end of function which is the value of lookup[val]
 }
