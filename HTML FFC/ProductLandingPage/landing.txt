@@ -1,0 +1,8 @@
+Still to include:
+1)the 3 clickable elements within the navbar must nav_link to there corresponding section
+2)I can watch an imbed product video with id='video'
+3)The #email input field uses HTML5 validation to confirm that the entered text is an email address.
+4)When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit).
+5)The navbar should always be at the top of the viewport.
+6)My product landing page should have at least one media query.
+7)My product landing page should utilize CSS flexbox at least once.
